@@ -1,0 +1,93 @@
+<html>
+ <head>
+   <title>Terra Mortis - La novela</title>
+   <meta charset="utf-8"/>
+   <link rel="icon" href="images/logo.png"/>
+   <link id="estilo" rel="STYLESHEET" type="text/css" href="css/index-css.css"></link>
+   <script src="js/script-index.js"></script>
+ </head>
+ <body>
+  <div>
+    <nav id="menu">
+      <a href="index.html">
+       <h1><img src="images/titulo.jpg" width="105%" alt="Cabecera de Terra Mortis" title="Volver a la home"/></h1> 
+      </a>
+     <ul>
+       <li><a href="index.html">HOME</a></li>
+       <li><a href="sinopsis.html">SINOPSIS</a></li>
+       <li><a href="universo.html">UNIVERSO</a>
+        <ul>
+           <li><a href="universo.html#personajes">Personajes</a></li>
+           <li><a href="universo.html#escenarios">Escenarios</a></li>
+           <li><a href="universo.html#criaturas">Criaturas</a></li>
+        </ul>
+       </li>
+       <li><a href="saga.html">SAGA</a>
+        <ul>
+          <li><a href="saga.html#uno">Finis Mare</a></li>
+          <li><a href="saga.html#dos">Supra Caelum</a></li>
+          <li><a href="saga.html#tres">Trailers</a></li>
+        </ul>
+       </li>
+       <li><a href="reserva.html">RESERVA</a></li>
+     </ul>
+    </nav>
+    <label id="ancla">Responsive</label>
+  </div>
+  <div id="contenedor">
+    <table id="total">
+      <td><img id="portada" src="images/terramortis.png" onclick="cambiarImagen()" width="410px" height="620px" alt="Portada del libro precuela: Terra Mortis" title="Portada de la novela"/><br><audio autoplay="true" src="audio/terra-mortis.mp3" controls>Audio</audio></td>  
+      <td><div id="logo" >
+        <img src="images/logo-saga.png" onclick="cambiarEstilo()" width="300px" height="300px" alt="Logo de Terra Mortis" title="Cambiar a modo oscuro"/>
+       </div>
+    <div id="titulo"><h2>Únete a la aventura</h2></div>
+   </div>
+   <div>
+      <section class="container">
+          <div class="charts">
+              <div class="chart">
+                  <div class="circle center-abs"></div>
+                  <svg class="center-abs" width="150" height="150">
+                      <circle class="outer" cx="75" cy="75" r="70" />
+                  </svg>
+                  <span class="text center-abs" id="days"></span>
+                  <h3>Días</h3>
+              </div>
+              <div class="chart">
+                  <div class="circle center-abs"></div>
+                  <svg class="center-abs" width="150" height="150">
+                      <circle class="outer" cx="75" cy="75" r="70" />
+                  </svg>
+                  <span class="text center-abs" id="hours"></span>
+                  <h3>Horas</h3>
+              </div>
+              <div class="chart">
+                  <div class="circle center-abs"></div>
+                  <svg class="center-abs" width="150" height="150">
+                      <circle class="outer" cx="75" cy="75" r="70" />
+                  </svg>
+                  <span class="text center-abs" id="minutes"></span>
+                  <h3>Minutos</h3>
+              </div>
+              <div class="chart">
+                  <div class="circle center-abs"></div>
+                  <svg class="center-abs" width="150" height="150">
+                      <circle class="outer" cx="75" cy="75" r="70" />
+                  </svg>
+                  <span class="text center-abs" id="seconds"></span>
+                  <h3>Segundos</h3>
+              </div>
+          </div>
+      </section>
+   <table id="principal">
+     <td>
+      <table>
+       <td> <center><h2>A la venta el 8 de octubre</h2></center><div class="slide">
+        <img id="carrusel" src="images/resena1.jpg" onclick="cambiarCarrusel()" width=55%  alt="Reseña" title="Reseña"/>  
+    </div>
+   </td>
+   </table></td>
+ </div></td> 
+</table>
+ </body>
+</html>

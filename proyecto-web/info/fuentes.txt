@@ -1,0 +1,17 @@
+FUENTES
+
+CUENTA ATRÁS: https://www.ribosomatic.com/articulos/como-hacer-un-contador-de-cuenta-regresiva-usando-svg-css-javascript-sin-libreria/#hoja 
+
+CARRUSEL:
+
+https://www.migueltroyano.com/css/carrusel-imagenes-html-css/#Carrusel_en_HTML_y_CSS_externo
+
+
+MAPA 
+https://www.jennifermd.com/2018/11/generadores-mapas-fantasia.html
+https://azgaar.github.io/Fantasy-Map-Generator/
+
+AUDIOS
+
+Music by ADMusicFreeMusic from Pixabay
+Music by Alex_Kizenkov from Pixabay

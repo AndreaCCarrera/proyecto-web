@@ -1,0 +1,243 @@
+
+    /*Fondo*/
+
+    body{
+      background-image: url("../images/mapa.png");
+      background-repeat: no repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      color: black;
+      margin: 0%;
+    }
+
+    /*Menú y título*/
+
+    #baner{
+     position:fixed;
+    }
+
+    #menu{
+      position:fixed;
+      width: 100%;
+    }
+
+    #menu ul li {
+       background-color: black;
+       width: 20%;
+      }
+
+    #menu ul {
+      list-style:none;
+      margin:0;
+      padding:0;
+    }
+
+    #menu ul a {
+      display:block;
+      color:#fff;
+      text-decoration:none;
+      text-align: center;
+      font-weight:400;
+      font-size:14px;
+      padding:7px;
+      font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: bold;
+      text-transform:uppercase;
+      letter-spacing:1px;
+    }
+
+    #menu ul li {
+      position:relative;
+      float:left;
+      margin:0;
+      padding:0;
+    }
+
+    #menu ul li:hover {
+      background:#9f3212;
+      color: black;
+    }
+
+   #menu ul ul {
+      display:none;
+      position:absolute;
+      top:100%;
+      left:0;
+      padding:0;
+   }
+
+   #menu ul ul li {
+      float:none;
+      width:100%;
+   }
+
+   #menu ul ul a {
+      line-height:100%;
+      padding:10px 15px;
+   }
+
+   #menu ul li:hover > ul {
+      display:block;
+   }
+
+   h1{
+     font-style: italic;
+     font-family: fantasy;
+     font-size: 40px;
+     margin-top: 5%;
+     margin-left: 5%;
+     margin-bottom: 2%;
+   }
+
+   #formulario{
+     background-color: #9f3212eb;
+     text-align: center;
+     color: white;
+     width: 60%;
+     height: 50%;
+     padding: 30px;
+     margin-left: 10%;
+     margin-right: 10%;
+     margin-bottom: -6%;
+     font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-style: italic;  
+   }
+
+   input{
+      padding: 1%;
+   }
+   
+   textarea{
+      padding: 1%;
+   }
+
+   #bottom{
+    width: 100%;
+   }
+
+   table{
+     border: 0%;
+     text-decoration: none;
+     width: 100%;
+     margin-top: -15.3%;
+
+   }
+
+   #derecha  {
+     float: right;
+     padding-bottom: 0px;
+     padding-right: 0px;
+
+   }
+
+   #central {
+     float: center;
+     width: 55%;
+     text-align: center;
+     color: black;
+   }
+
+   #button{
+     background-color: #fff;
+     border: 0%;
+     text-decoration: none;
+     width: 100px;
+     height: 40px;
+     border-radius: 30px;
+   }
+
+   #enlace {
+     background-color: #000000;
+     border: 0%;
+     text-decoration: none;
+     margin-top: 15%;
+     margin-left: 80%;
+     border-radius: 40px;
+     padding: 0.1%;
+   }
+
+   #enlace a {
+       color: #fff;
+       font-weight: lighter;
+       font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+       font-size: 15px;
+      }
+
+      ::-moz-selection {
+        background: black;    
+      }
+
+      ::selection {
+        background: black;  
+      }
+
+/*Responsive*/
+
+@media screen and (max-width:500px){
+
+  nav{
+   display: none;
+  }
+
+  div:hover > nav{
+   display:block;
+  }
+
+  #menu ul li {
+    width: 100%;
+  }
+
+  #menu ul li a {
+   display: block;
+   text-align: center;
+  }
+  
+  #menu ul ul {
+    position: static;
+    display: block;
+    width: 100%;
+  }
+
+  #menu ul ul li {
+    width: 100%;
+    display: block;
+    float: none;
+  }
+
+  #ancla{
+    color:white;
+    width: 100%;
+  }
+
+  h1{
+    font-size: 30px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+  }
+
+  table{
+    display: none;
+  }
+
+  #contenedor{
+    background-color: #fff;
+  }
+
+  #tres{
+    background-color: #9f3212eb;
+    margin-top: 5%;
+    width: 120%;
+    margin-left: -10%;
+  }
+
+  #cuatro{
+    background-color: #9f3212eb;
+    margin-top: -13%;
+    width: 120%;
+    margin-left: -10%;
+  }
+
+  textarea{
+    width: 50%;
+  }
+}
